@@ -69,6 +69,40 @@ body.carta-aberta #container {
 }
 
 /* =============================== */
+/*         ÚLTIMA CARTA           */
+/* =============================== */
+.ultima-carta {
+  background: linear-gradient(180deg, #161616 0%, #1f1f1f 100%);
+  color: #fff;
+  max-width: 920px;
+  margin: 28px auto;
+  padding: 26px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.ultima-carta h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.ultima-carta .assinatura {
+  text-align: right;
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  .ultima-carta { padding: 18px; font-size: 16px; margin: 18px; }
+  .ultima-carta h2 { font-size: 20px; }
+}
+
+/* =============================== */
 /*          BOTÃO TOGGLE           */
 /* =============================== */
 
